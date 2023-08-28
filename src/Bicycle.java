@@ -3,4 +3,9 @@ public class Bicycle extends Transport {
         super(modelName, wheelsCount);
     }
 
+    @Override
+    public void check() {
+        super.check();
+        System.out.println("======================");
+    }
 }

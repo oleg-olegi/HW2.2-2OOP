@@ -1,3 +1,3 @@
 public interface UpdateTyre {
-    public void updateTyre();
+     void updateTyre();
 }

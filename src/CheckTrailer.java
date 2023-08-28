@@ -1,3 +1,3 @@
 public interface CheckTrailer {
-    public void checkTrailer();
+     void checkTrailer();
 }
