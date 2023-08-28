@@ -21,13 +21,14 @@ class ServiceStation {
             System.out.println("======================");
         }
     }
+
     public void check(Bicycle bicycle) {
         if (bicycle != null) {
             System.out.println("Обслуживаем " + bicycle.getModelName() + "\n======================");
             for (int i = 0; i < bicycle.getWheelsCount(); i++) {
                 bicycle.updateTyre();
-                System.out.println("======================");
             }
+            System.out.println("======================");
         }
     }
 }

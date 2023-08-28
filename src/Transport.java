@@ -1,10 +1,22 @@
-abstract public class Transport {
+abstract public class Transport implements UpdateTyre, CheckTrailer, CheckEngine {
     private String modelName;
     private int wheelsCount;
 
     public Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
+    }
+
+    public void updateTyre() {
+        System.out.println("Меняем покрышку");
+    }
+
+    public void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
+
+    public void checkTrailer() {
+        System.out.println("Проверяем прицеп");
     }
 
     public String getModelName() {
