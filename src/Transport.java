@@ -1,4 +1,4 @@
-abstract public class Transport implements UpdateTyre {
+abstract public class Transport {
     final String modelName;
     final int wheelsCount;
 
